@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding:0px
+}
+body{
+    font-family: Roboto;
+    background-image: url('../images/backcover.svg');
+    background-repeat:no-repeat;
+    right: 0;
+    background-position: right  bottom;
+    height: 100vh;
+}
+ .main-div nav img{
+    width: 90px;
+}
+.main-div nav {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+
+   
+
+
+}
+.main-div nav .nav-items {
+    display: flex;
+    gap:60px;
+    margin:auto;
+    color: #3e4794;
+}
+.main-div nav .signin-btn {
+background: linear-gradient(to right, #965cf2, #ff8adc);
+color:white;
+padding:5px 10px;
+border:none;
+border-radius: 20px;
+}
+.intro-section{
+    display: flex;
+}
+.imgs-div{
+    position: relative;
+}
+.intro-section .left-section{
+    margin:100px 20px 20px 20px;
+    width:400px;
+}
+.imgs-div img:nth-child(3){
+    position:absolute;
+    width:650px ;
+    height: 700px;
+    top:-40px;
+    left:0;
+
+
+}
+.intro-section .left-section h1{
+color: #3e4794;
+font-size: 4rem;
+margin:10px 10px 50px 10px; 
+}
+
+.intro-section .left-section h4{
+    font-size: 1rem;
+    color:rgb(117, 117, 117);
+    margin: 10px 10px 50px 10px;
+
+}
+
+.intro-section .left-section  .learn-more-btn{
+    padding:10px 20px 10px 20px;
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    border:none;
+    color: white;
+    border-radius: 20px;
+    margin: 10px 10px 50px 10px;
+    cursor: pointer;
+}
+
+.imgs-div .vector-img {
+    position:absolute;
+    top:400px;
+    width:90px;
+    left:90px;
+}
+
+.imgs-div .vector-dot{
+    position:absolute;
+    top:400px;
+    left:140px;
+
+}
