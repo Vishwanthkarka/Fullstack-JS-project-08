@@ -90,3 +90,108 @@ margin:10px 10px 50px 10px;
     left:140px;
 
 }
+
+@media only screen and (max-width:1111px) {
+     .intro-section .imgs-div img:last-child{
+   position:static;
+        width:500px;
+       
+    }
+   .imgs-div{
+      
+        width: 100px;
+    } 
+    .imgs-div .vector-img{
+        left:400px;
+
+    }
+    .imgs-div .vector-dot{
+        left: 450px;
+    }
+}
+
+
+@media only screen and (max-width:945px) {
+    .intro-section .imgs-div img:last-child{
+    position: static;
+    width: 400px;
+    }
+    .imgs-div{
+        position: static;
+    }
+    .intro-section{
+        flex-wrap: wrap;
+    }
+    .intro-section .left-section{
+        margin:140px 20px 20px 20px
+    }
+}
+
+@media only screen and (max-width:850px) {
+    nav{
+        overflow: scroll;
+    }
+.imgs-div{
+    top:0px;
+    order:-1;
+   
+    
+}
+.intro-section .imgs-div img:last-child{
+    position: static;
+    width: 500px;
+    margin-left: 70px;
+
+    
+}
+.intro-section{
+    flex-direction: column;
+}
+.left-section{
+    margin:0px
+}
+.intro-section .left-section{
+    margin:0px
+}
+
+.intro-section .left-section h4{
+    text-align: center;
+}
+.intro-section .left-section .learn-more-btn{
+    margin:auto;
+    display: block;
+    margin-bottom: 100px;
+}
+nav .nav-items{
+    padding-left:20px ;
+}
+nav .signin-btn{
+    width:50px;
+}
+.imgs-div img:nth-child(3){
+    height:500px
+}
+.intro-section .left-section h1{
+    font-size: 2.5rem;
+    width:100%;
+    text-align: center;
+    margin:100px 0 50px 0;
+}
+.intro-section .left-section h4{
+    width: 90%;
+    margin:50px 20px 50px 20px;;
+}
+.intro-section .left-section{
+width:100%;
+}
+}
+
+
+@media only screen and (max-width:586px){
+    .imgs-div{
+        display: none;
+    }
+    .left-section{
+        margin:auto
+    }
+}
